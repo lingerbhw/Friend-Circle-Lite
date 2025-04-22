@@ -88,7 +88,7 @@ jobs:
       actions: write
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/keepalive-workflow@v2
+      - uses: liskin/gh-workflow-keepalive@v1
         with:
           committer_username: "github-actions[bot]"
           committer_email: "github-actions[bot]@users.noreply.github.com"
